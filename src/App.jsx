@@ -1,14 +1,18 @@
 import FavouriteSites from "./components/FavouriteSites"
 import Profile from"./components/Profile"
 import Gallery from"./components/Gallery"
+import StateAssignmentOne from"./components/StateAssignmentOne"
+import StateAssignmentTwo from"./components/StateAssignmentTwo"
 import "./App.css"
 function App() {
 
   return (
     <div className="App">
-      <div id="FavouriteSites" className="content"><FavouriteSites /></div>
-      <div id="Profile" className="content"><Profile /></div>
-      <div id="Gallery" className="content"><Gallery /></div>
+      <FavouriteSites />
+      <Profile />
+      <Gallery />
+      <StateAssignmentOne />
+      <StateAssignmentTwo />
     </div>
   )
 }
