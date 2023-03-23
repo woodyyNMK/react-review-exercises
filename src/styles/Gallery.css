@@ -1,0 +1,7 @@
+.Gallery li{
+    list-style-type: none;
+}
+img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}

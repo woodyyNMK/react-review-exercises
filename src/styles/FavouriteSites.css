@@ -1,0 +1,12 @@
+.FavouriteSites li{
+    list-style-type: none;
+}
+.FavouriteSites a{
+    color: lightgreen;
+}
+.FavouriteSites a:visited{
+    color: lightgreen;
+}
+.FavouriteSites a:hover{
+    color: red;
+}
